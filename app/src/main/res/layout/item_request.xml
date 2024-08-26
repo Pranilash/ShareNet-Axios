@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="request"
+            type="com.overengineered.sharenet.Request" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="?attr/selectableItemBackground"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/requestItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{request.item}" />   <!-- Correctly reference 'item' -->
+
+        <TextView
+            android:id="@+id/requestTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{request.title}" />  <!-- Correctly reference 'title' -->
+
+        <TextView
+            android:id="@+id/requestDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{request.description}" />
+    </LinearLayout>
+</layout>

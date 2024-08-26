@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "684184630000",
+    "project_id": "sharenet-68a57",
+    "storage_bucket": "sharenet-68a57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684184630000:android:b62eb7915c25f3b5938835",
+        "android_client_info": {
+          "package_name": "com.overengineered.sharenet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684184630000-91i5ep1j39d5rjpcol60hcaekec5sb4n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.overengineered.sharenet",
+            "certificate_hash": "211dba86b1250c867752f53497586bcde76c7b56"
+          }
+        },
+        {
+          "client_id": "684184630000-qmd1tpfuu7857od4ujv1g2s7itnphn98.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWyiMuBNykvhRdJqKF-asfprAhQqripw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684184630000-qmd1tpfuu7857od4ujv1g2s7itnphn98.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
