@@ -15,13 +15,18 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewRequests"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="390dp"
+        android:layout_height="426dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="0dp"
         android:clipToPadding="false"
-        android:padding="8dp"/>
+        android:padding="8dp" />
 
     <Button
-        android:id="@+id/btnCreateRequest"
+        android:id="@+id/btnNewRequest"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Create Request"
