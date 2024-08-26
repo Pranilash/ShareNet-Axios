@@ -36,7 +36,6 @@
             android:name=".ProfileFragment"
             android:exported="false" />
 
-        <!-- Make sure these are actual activities or correct names -->
         <activity
             android:name=".SurplusItemsFragment"
             android:exported="false" />
@@ -44,5 +43,4 @@
             android:name=".RequestsFragment"
             android:exported="false" />
     </application>
-
 </manifest>
