@@ -22,7 +22,7 @@ ShareNet is an Android mobile application designed to facilitate community shari
 
 ### Android SDK
 
-The app is developed using Kotlin and leverages Android’s modern libraries to ensure a robust and efficient user experience. It uses Android’s ViewModel and LiveData for managing UI-related data in a lifecycle-conscious way.
+The app is developed using Kotlin and uses Android’s modern libraries to ensure a robust and efficient user experience. It uses Android’s ViewModel and LiveData for managing UI-related data in a lifecycle-conscious way.
 
 ### Firebase Integration
 
